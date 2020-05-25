@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Oxygen', sans-serif;
+}
+
+body{
+	background: #2c3e50;
+
+}
+
+header{
+
+	height: 15vh;
+	background: inherit;
+	color: #54f542;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+header > h1{
+	padding-top: 28px;
+	text-align:center;
+}
+.score_board{
+	/*border: 1px solid green;*/
+	height: 25vh;
+	background: #2c3e50;
+	color: #fff;
+	text-align: center;
+	font-size: 2rem;
+	position: relative;
+}
+.result{
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+	color: green;
+}
+.user_score{
+			
+
+	position: absolute;
+	left:40px; 
+		padding-top: 49px;
+}
+.computer_score{
+		
+	position: absolute;
+	right:40px; 
+		padding-top: 49px;
+}
+
+.images{
+
+	/*border: 2px solid #000;*/
+	height: 35vh;
+	display: flex;
+	
+	align-items: center;
+	justify-content: center;
+}
+ .choice{
+	
+	margin: 0 15px;
+	border: 5px solid #fff;
+	padding: 15px;
+	border-radius: 50%;
+	display: inline-block;
+	transition: all 0.3s ease;
+	
+ }
+ .choice:hover{
+
+
+	cursor: pointer;
+
+ }
+p{
+	text-align: center;
+	font-size: 2rem;
+	color: #fff;
+}
+.p2{
+
+	padding-bottom: 35px;
+}
+
+	.f{
+		height: 10vh;
+		background-color: #594d40;
+		text-align: center;
+		
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 1.3rem;
+	}
+	.f >a{
+		color: white !important;
+		/*text-decoration: none;	*/
+	}
+
+.green_light{
+
+	border: 5px solid #00b894;
+	box-shadow: 0 0 10px #3cc012;
+
+}.red_light{
+
+	border: 5px solid #c23616;
+	box-shadow: 0 0 10px #e84118;
+
+}.gray_light{
+
+	border: 5px solid #a9a9a9;
+	box-shadow: 0 0 10px #2c220e;
+
+}
+
+
