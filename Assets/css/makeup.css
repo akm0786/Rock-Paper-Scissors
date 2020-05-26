@@ -186,7 +186,7 @@ p{
 			font-size: 1.9rem;
 		}
 }
-@media only screen and (max-width:356px) {
+@media only screen and (max-width:355px) {
 	
 	header>h1{
 		font-size: 22px;
