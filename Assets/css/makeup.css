@@ -166,7 +166,7 @@ p{
 
 
 }
-@media only screen and (max-width:410px) {
+@media only screen and (max-width:425px) {
 	
 	.score_board{
 		
@@ -176,15 +176,20 @@ p{
 	}
 	.user_score{
 		top:0px;
-		left: 54px;
+		left: 80px;
 	}.computer_score{
 		top:40px;
-		left: 20px;
+		left:0px;
 	}
 		.result >p{
 
 			font-size: 1.9rem;
 		}
 }
-
+@media only screen and (max-width:356px) {
+	
+	header>h1{
+		font-size: 22px;
+	}
+}
 
