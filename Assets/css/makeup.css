@@ -168,6 +168,9 @@ p{
 }
 @media only screen and (max-width:425px) {
 	
+	header>h1{
+		font-size: 22px;
+	}
 	.score_board{
 		
 		padding: 0
@@ -186,7 +189,7 @@ p{
 			font-size: 1.9rem;
 		}
 }
-@media only screen and (max-width:355px) {
+@media only screen and (max-width:376px) {
 	
 	header>h1{
 		font-size: 22px;
