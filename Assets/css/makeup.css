@@ -1,23 +1,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap');
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Oxygen', sans-serif;
+	-webkit-tap-highlight-color: transparent;
 }
 
 body{
 	background: #222f3e;
+	font-family: 'Oxygen', sans-serif;
 	user-select: none;
+	max-height:80vh; 
+	box-sizing: border-box;
 }
 
 header{
 
-	height: 15vh;
+	height: 18vh;
 	background: inherit;
 	color: #54f542;
-	font-family: 'Oswald', sans-serif;
+	word-spacing: 2px;
+	font-family: 'Chau Philomene One', sans-serif;
 	text-transform: uppercase;
 }
 header > h1{
@@ -26,7 +31,7 @@ header > h1{
 }
 .score_board{
 	/*border: 1px solid green;*/
-	height: 25vh;
+	height: 20vh;
 	background: #2c3e50;
 	color: yellow;
 	text-align: center;
@@ -57,7 +62,7 @@ header > h1{
 .images{
 
 	/*border: 2px solid #000;*/
-	height: 35vh;
+	height: 29vh;
 	display: flex;
 	
 	align-items: center;
@@ -87,7 +92,7 @@ p{
 }
 .p2{
 
-	padding-bottom: 35px;
+	/*padding-bottom: 35px;*/
 }
 
 	.f{
@@ -129,7 +134,7 @@ p{
 		
 
 		header{
-			height: 14vh;
+			height: 10vh;
 		}
 	header h1{
 		font-size: 25px;
@@ -140,12 +145,13 @@ p{
 
 		font-size: 1.5rem;
 		color: yellow;
+		height: 15vh;
 		display: grid;
 	}
 
 	.images{
 		display: grid;
-		height: 60px;
+		height: 80px;
 		margin: 5px;
 		}
 		.result{
@@ -153,7 +159,9 @@ p{
 		}
 		.choice{
 		
+					
 		margin: 5px;
+
 		cursor: pointer;
 
 		}
@@ -168,13 +176,15 @@ p{
 }
 @media only screen and (max-width:425px) {
 	
+
+
 	header>h1{
 		font-size: 22px;
 	}
 	.score_board{
 		
 		padding: 0
-		height: 170px;
+		/*height: 100px;*/
 		position: relative;	
 	}
 	.user_score{
@@ -182,17 +192,25 @@ p{
 		left: 80px;
 	}.computer_score{
 		top:40px;
-		left:0px;
+		left: 0px;
 	}
 		.result >p{
 
 			font-size: 1.9rem;
 		}
+		.p2{
+			padding-top:390px; 
+		}
+	
+
+	
 }
+
 @media only screen and (max-width:376px) {
 	
 	header>h1{
 		font-size: 22px;
 	}
 }
+
 
